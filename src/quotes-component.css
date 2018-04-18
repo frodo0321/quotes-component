@@ -1,0 +1,42 @@
+
+#quotes-container {
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	display: block;
+	z-index: 10;
+}
+
+#quotes-text-container {
+	max-width: 60%;
+	min-width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+#quotes-text {
+	font-family: "sans-serif";
+	display: inline-block;
+	padding: 10px;
+	background-color: rgba(0,0,0,.4);
+	border-radius: 3px;
+	font-size: 1.5em;
+	color: white;
+	cursor: pointer;
+}
+
+#quote-author {
+	float: right;
+}
+
+@media screen and (max-width: 64em) {
+	#quotes-text {
+		font-size: 1.3em
+	}
+}
+
+@media screen and (max-width: 25em) {
+	#quotes-text {
+		font-size: 0.9em
+	}
+}
